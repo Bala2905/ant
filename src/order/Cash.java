@@ -68,10 +68,10 @@ public void login () throws InterruptedException
 	act.moveToElement(dropdown).perform();
 	
 	//For Switching New Tab
-	ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
-	driver.switchTo().window(tabs.get(0));
-	Thread.sleep(5000);
-	driver.findElement(By.xpath("/html/body/div/div/div[3]/div[2]/div[1]/div[1]/div/div/div/section[4]/div[2]/div/div[1]/div/div/label/div[1]")).click();
+	//ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
+	//driver.switchTo().window(tabs.get(0));
+	//Thread.sleep(5000);
+	//driver.findElement(By.xpath("/html/body/div/div/div[3]/div[2]/div[1]/div[1]/div/div/div/section[4]/div[2]/div/div[1]/div/div/label/div[1]")).click();
 
 	
 	//driver.findElement(By.xpath("/html/body/div/div/div[1]/div[1]/div[2]/div[3]/div/div/div/div")).click();
